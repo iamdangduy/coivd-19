@@ -11,3 +11,52 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.title-cases {
+  text-align: center;
+}
+
+.chart-layout {
+  margin: 0px auto 0 auto;
+  padding: 20px 0;
+  height: 320px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+}
+
+.chart-layout__item {
+  align-self: flex-end;
+  width: 60px;
+  color: #fff;
+  text-align: center;
+  /* height: var(percent); */
+  background-color: rgb(182, 103, 103);
+  /* animation: growth ease-in 1s; */
+}
+
+.chart-layout__dateBadge {
+  color: black;
+  background-color: wheat;
+}
+
+.weather-img {
+  max-width: 100%;
+  height: auto;
+  transition: 0.3s;
+}
+
+.weather-child {
+  position: relative;
+  overflow: hidden;
+}
+
+.weather-img:hover {
+  transform: scale(1.2);
+  position: absolute;
+}
+
+.pagination {
+  position: relative;
+  left: 500px;
+}
